@@ -1,7 +1,9 @@
 # Tensorflow-handpose-drag
 
 This is a concept on how Machine Learning (ML) can be integrated on Web apps.
+
 It uses a pre-trained [Tensorflow.js](https://www.tensorflow.org/js) model, [Hand Pose Detection](https://www.npmjs.com/package/@tensorflow-models/hand-pose-detection)
+
 Here's a list of available pre-trained models for you to play with; https://github.com/tensorflow/tfjs-models
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.10.
