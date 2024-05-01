@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tensorflow-drag-n-drop": {
+    "tensorflow-handpose-drag": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tensorflow-drag-n-drop",
+            "outputPath": "dist/tensorflow-handpose-drag",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tensorflow-drag-n-drop:build:production"
+              "browserTarget": "tensorflow-handpose-drag:build:production"
             },
             "development": {
-              "browserTarget": "tensorflow-drag-n-drop:build:development"
+              "browserTarget": "tensorflow-handpose-drag:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tensorflow-drag-n-drop:build"
+            "browserTarget": "tensorflow-handpose-drag:build"
           }
         },
         "test": {
